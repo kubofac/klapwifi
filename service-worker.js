@@ -1,4 +1,4 @@
-const CACHE_NAME = 'KLAP_messenger_ver3';
+const CACHE_NAME = 'KLAP_wifi';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -7,7 +7,7 @@ const urlsToCache = [
   '/icon192.png',
   '/icon512.png',
   // 画像やJavaScriptファイルなど、アプリを構成するすべての静的ファイルをここに追加
-  
+   '/circuit_data.js',
   
   // その他のCSSやJSファイルなど
 ];
@@ -52,4 +52,5 @@ self.addEventListener('activate', (event) => {
       );
     })
   );
+
 });
