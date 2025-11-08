@@ -1,6 +1,6 @@
 {
-  "name": "KLAP_messenger_ver3",
-  "short_name": "KLAP_messenger_ver3",
+  "name": "KLAP_wifi",
+  "short_name": "KLAP_wifi",
   "description": "BLEとwifi利用したメッセージ受信アプリ。",
   "start_url": "/index.html",
   "display": "fullscreen",
@@ -19,4 +19,5 @@
       "type": "image/png"
     }
   ]
+
 }
